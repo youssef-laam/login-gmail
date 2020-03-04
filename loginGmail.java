@@ -9,11 +9,8 @@ import org.sikuli.script.Screen;
 
 public class loginGmail {
 	
-	public LoginGmail() {
 		
-	}
-		
-	public static void sendMail() throws Exception {
+	public static void main(String[] args) throws Exception {
 		Screen screen = new Screen();
 		Pattern image1 = new Pattern("C:\\Users\\Administrator\\images\\gmail-logo.PNG");
 		Pattern image2 = new Pattern("C:\\Users\\Administrator\\images\\connexion.PNG");
